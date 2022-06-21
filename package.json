@@ -1,0 +1,19 @@
+{
+  "name": "twitter-replace-image-with-original",
+  "version": "1.1.0",
+  "description": "Google Chrome拡張機能。 twitter.com のツイート内画像を元画像へ自動置き換え。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y-dash/twitter-replace-image-with-original.git"
+  },
+  "author": "Y-dash",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/Y-dash/twitter-replace-image-with-original/issues"
+  },
+  "homepage": "https://github.com/Y-dash/twitter-replace-image-with-original#readme"
+}
