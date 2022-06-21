@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/Y-dash/twitter-replace-image-with-original/issues"
   },
-  "homepage": "https://github.com/Y-dash/twitter-replace-image-with-original#readme"
+  "homepage": "https://github.com/Y-dash/twitter-replace-image-with-original#readme",
+  "devDependencies": {
+    "@types/chrome": "0.0.190",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^5.1.0",
+    "npm-check-updates": "^14.0.1",
+    "typescript": "^4.7.4"
+  }
 }
