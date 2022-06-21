@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "Twitter, Replace image with Original",
+	"version": "1.1.0",
+	"description": "Google Chrome拡張機能。 twitter.com のツイート内画像を元画像へ自動置き換え。",
+	"icons" :
+	{
+		"16": "icons/icon16.png",
+		"48" : "icons/icon48.png",
+		"128" : "icons/icon128.png"
+	},
+	"author": "Y-dash",
+	"content_scripts": [ {
+		"matches": ["*://twitter.com/*"],
+		"js": ["scripts/content.js"],
+		"run_at" : "document_end"
+	} ],
+	"host_permissions" : ["*://twitter.com/*"]
+}
