@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Twitter, Replace image with Original",
 	"version": "1.1.1",
-	"description": "Twitter Web App (twitter.com) のツイート内画像を元画像へ自動で置き換えます。",
+	"description": "Twitter Web App (twitter.com) のツイート内画像をオリジナルサイズの画像へ自動で置き換えます。",
 	"icons" :
 	{
 		"16": "icons/icon16.png",

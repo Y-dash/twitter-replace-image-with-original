@@ -2,18 +2,18 @@
 
 [Twitter, Replace image with Original \- Chrome ウェブストア](https://chrome.google.com/webstore/detail/twitter-replace-image-wit/nbmclnmpljdfgbpoilipbapbnhlbnbai)
 
-Google Chrome 拡張機能。Twitter Web App (twitter.com) のツイート内画像を元画像へ自動で置き換えます。
+Google Chrome 拡張機能。Twitter Web App (twitter.com) のツイート内画像をオリジナルサイズの画像へ自動で置き換えます。
 
-通常 Twitter のタイムラインにはリサイズされた画像が読み込まれていますが、この拡張機能はそれをオリジナルサイズの画像へ自動で置き換えます。
-
-画像のプレビュー時に大きな画像により見やすくなる他、「新しいタブで画像を開く」際にも最大サイズの画像が表示されるようになります。
+通常 Twitter のタイムラインにはリサイズされた画像が読み込まれていますが、この拡張機能はそれをオリジナルサイズの画像へ自動で置き換えます。画像のプレビュー時や「新しいタブで画像を開く」際に表示される画像が最大サイズのものになります。
 
 2023年7月頃より Twitter の仕様変更でタイムラインのサムネイルが webp 形式で読み込まれるようになっていますが、それらについても元の jpg, png 形式で表示するように暫定の対策を組んであります。
+
+画像保存用途の場合は、本拡張機能ではなく、それに特化した「[Twitter, Download Original Image \- Chrome ウェブストア](https://chrome.google.com/webstore/detail/twitter-download-original/oohidjkamhoccdjfhokgjcefajmfbgep)」の使用をおすすめします。
 
 ---
 
 ## 注意事項
-
+- 昔の Twitter は特に漫画や図表の画像が非常に見づらかったのですが、現在はそうでもありません。この拡張機能が活躍する場面は当時と比べて限定的になっているかと思います。
 - 大きな画像に置き換えるという仕組み上、タイムラインに大量の画像がある場合などに Twitter の読み込みの処理が多少重くなります。
 - この拡張機能を使用中に Twitter Web App の挙動に問題が発生した場合、Twitter の仕様変更とこの拡張機能の相性問題が疑われます。まずは一度この拡張機能を無効にしてみてください。
 - 本拡張機能では Twitter 内に「orig」というパラメータで保持されている画像へ置き換えます。観測範囲内ではこのパラメータを指定した場合に投稿時と同じサイズの画像が返ってくることを確認していますが、それであっても Twitter による処理を経ているため、厳密な元画像ではない部分もあります。たとえば投稿前に存在した Exif 情報は保持されていません。

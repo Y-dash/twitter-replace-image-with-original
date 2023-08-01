@@ -1,7 +1,7 @@
 {
   "name": "twitter-replace-image-with-original",
   "version": "1.1.1",
-  "description": "Google Chrome 拡張機能。Twitter Web App (twitter.com) のツイート内画像を元画像へ自動で置き換えます。",
+  "description": "Google Chrome 拡張機能。Twitter Web App (twitter.com) のツイート内画像をオリジナルサイズの画像へ自動で置き換えます。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
